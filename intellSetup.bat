@@ -1,4 +1,4 @@
-echo off
+@echo off
 color 02
 
 rem This batch script is used to setup the appropriate libgdx libraries to use with IntelliJ on Windows.
