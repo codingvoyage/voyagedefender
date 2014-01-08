@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4403c2a1-cfd3-47ad-8b51-86a3f4dc0b9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intellSetup.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/fonts/RobotoLight.tga" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/fonts/RobotoLight.fnt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/global/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java" />
+      <change type="DELETED" beforePath="C:\Users\Brian\IdeaProjects\voyagedefender\android\src\com\codingvoyage\voyagedefender\MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Brian\IdeaProjects\voyagedefender\core\src\com\codingvoyage\voyagedefender\VoyageDefender.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Brian\IdeaProjects\voyagedefender\desktop\src\com\codingvoyage\voyagedefender\DesktopLauncher.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/desktop.iml" afterPath="$PROJECT_DIR$/desktop/desktop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/project.properties" afterPath="$PROJECT_DIR$/android/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voyagedefender.ipr" afterPath="$PROJECT_DIR$/voyagedefender.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voyagedefender.iws" afterPath="$PROJECT_DIR$/voyagedefender.iws" />
     </list>
     <ignored path="libgdx-gradle-template.iws" />
@@ -71,46 +80,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="desktop.iml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="desktop.iml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="54" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
+            <state line="20" column="16" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="3111">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intellSetup.bat" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="intellSetup.bat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intellSetup.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="339" selection-end="339" vertical-scroll-proportion="0.34285715" vertical-offset="0" max-vertical-offset="595">
+            <state line="8" column="123" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DesktopLauncher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java">
+        <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="25" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+            <state line="10" column="3" selection-start="278" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="VoyageDefender.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="799">
+            <state line="33" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/global/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="16" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Android Development Tools/sdk/sources/android-19/android/os/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="9" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13243">
               <folding />
             </state>
           </provider>
@@ -119,7 +157,7 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
+            <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="-14.68" vertical-offset="177" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -139,12 +177,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/core/src/com/codingvoyage/voyageshooter/VoyageDefender.java" />
-        <option value="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java" />
         <option value="$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/MainActivity.java" />
-        <option value="$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/desktop/desktop.iml" />
         <option value="$PROJECT_DIR$/intellSetup.bat" />
+        <option value="$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java" />
+        <option value="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java" />
+        <option value="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/global/Util.java" />
+        <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/desktop/desktop.iml" />
       </list>
     </option>
   </component>
@@ -206,6 +247,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libgdx-gradle-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,19 +311,175 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libgdx-gradle-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingvoyage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingvoyage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codingvoyage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voyagedefender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +489,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -294,14 +501,20 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.codingvoyage.voyagedefender.main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Brian\IdeaProjects\voyagedefender\android\assets" />
+      <recent name="C:\Users\Brian\IdeaProjects\voyagedefender\core\src\com\codingvoyage\voyagedefender\res" />
       <recent name="C:\Users\Brian\IdeaProjects\voyageshooter\desktop\src" />
       <recent name="C:\Users\Brian\IdeaProjects\voyageshooter\core\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Debug Desktop">
+  <component name="RunManager" selected="Android Application.Debug Android">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -448,7 +661,7 @@
     </configuration>
     <configuration default="false" name="Debug Desktop" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
-      <option name="MAIN_CLASS_NAME" value="com.codingvoyage.voyagedefender.DesktopLauncher" />
+      <option name="MAIN_CLASS_NAME" value="com.codingvoyage.voyagedefender.main.DesktopLauncher" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/android/assets" />
@@ -502,11 +715,16 @@
       <created>1389069865456</created>
       <updated>1389069865456</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;intellSetup.bat&#10;&#10;">
+      <created>1389136531489</created>
+      <updated>1389136531489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -520,14 +738,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3315335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -548,6 +766,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;intellSetup.bat&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;intellSetup.bat&#10;&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -560,143 +780,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="3111">
+        <state line="11" column="54" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="3128">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java">
+    <entry file="file://$PROJECT_DIR$/intellSetup.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="787" selection-end="787" vertical-scroll-proportion="0.42857143" vertical-offset="170" max-vertical-offset="1632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/VoyageDefender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
@@ -715,16 +827,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/DesktopLauncher.java">
+    <entry file="file://$PROJECT_DIR$/intellSetup.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="12" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="213" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="46" selection-start="787" selection-end="787" vertical-scroll-proportion="0.42857143" vertical-offset="170" max-vertical-offset="1632" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/intellSetup.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="339" selection-end="339" vertical-scroll-proportion="0.34285715" vertical-offset="0" max-vertical-offset="595">
+        <state line="8" column="123" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1494" selection-end="1494" vertical-scroll-proportion="-14.68" vertical-offset="177" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/codingvoyage/voyagedefender/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="278" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/codingvoyage/voyagedefender/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/main/VoyageDefender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/codingvoyage/voyagedefender/global/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/ic_launcher-web.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/android.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0016778524" vertical-offset="271" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Android Development Tools/sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="9" selection-start="4234" selection-end="4234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/desktop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="3111">
           <folding />
         </state>
       </provider>

@@ -1,8 +1,9 @@
 
-package com.codingvoyage.voyagedefender;
+package com.codingvoyage.voyagedefender.main;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.codingvoyage.voyagedefender.main.VoyageDefender;
 
 /**
  * @author Brian Yang
@@ -15,7 +16,10 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
  */
 public class DesktopLauncher {
 	public static void main (String[] arg) {
-		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new VoyageDefender(), config);
+		LwjglApplicationConfiguration game = new LwjglApplicationConfiguration();
+        game.title = "VoyageDefender 0.0 - Days Before Pre-Alpha";
+        game.width = 1280;
+        game.height = 720;
+		new LwjglApplication(new VoyageDefender(), game);
 	}
 }

@@ -1,10 +1,11 @@
 
-package com.codingvoyage.voyagedefender;
+package com.codingvoyage.voyagedefender.main;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.codingvoyage.voyagedefender.main.VoyageDefender;
 
 /**
  * @author Brian Yang
